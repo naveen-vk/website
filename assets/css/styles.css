@@ -1,0 +1,40 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+.image-banner{
+    position: relative;
+}
+.banner-description{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: aliceblue;
+    background-color: rgba(0,0, 0, .25);
+    height: auto;
+    box-sizing: border-box;
+}
+.image-banner img{
+    display: block;
+}
+.banner-description li{
+    margin: 70px 50px;
+    padding: 10px 30px;
+    background-color: cadetblue;
+    font-size: larger;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 100px;
+}
+ ul{
+     list-style-type: none;
+   }
+.banner-description li:hover{
+    margin: 70px 50px;
+    padding: 10px;
+    background-color: grey;
+    font-size: larger;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 100px;
+}
